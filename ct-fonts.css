@@ -1,0 +1,68 @@
+@import "https://use.typekit.net/uwi3pdy.css";
+
+@font-face {
+    font-family: 'ParnasoStandard-Medium';
+    src: url('https://www.christianitytoday.com/wp-content/themes/christianitytoday/src/fonts/ParnasoStandard-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'ParnasoStandard-Bold';
+    src: url('https://www.christianitytoday.com/wp-content/themes/christianitytoday/src/fonts/ParnasoStandard-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'ParnasoStandard-MediumItalic';
+    src: url('https://www.christianitytoday.com/wp-content/themes/christianitytoday/src/fonts/ParnasoStandard-MediumItalic.woff2');
+}
+
+@font-face {
+    font-family: 'ParnasoStandard-BoldItalic';
+    src: url('https://www.christianitytoday.com/wp-content/themes/christianitytoday/src/fonts/ParnasoStandard-BoldItalic.woff2');
+}
+
+
+:root {
+    --font-family: "acumin-variable", arial, sans-serif;
+    --font-family-alt: "ParnasoStandard-Medium", "Times New Roman", serif;
+    --font-family-alt-bold: "ParnasoStandard-Bold", "Times New Roman", serif;
+    --font-family-alt-italic: "ParnasoStandard-MediumItalic", "Times New Roman", serif;
+    --font-family-alt-bold-italic: "ParnasoStandard-BoldItalic", "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-alt);
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em, h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
+  font-family: var(--font-family-alt-italic);
+}
+
+strong, b {
+    font-family: var(--font-family-alt-bold);
+}
+
+strong em,
+em strong,
+b i,
+i b {
+  font-family: var(--font-family-alt-bold-italic);
+}
+
+p, td, th, label, a {
+  font-family: var(--font-family);
+}
+
+p strong, p b  {
+  font-family: var(--font-family);
+  font-variation-settings: 'wght' 500, 'wdth' 100, 'slnt' 0;
+}
+
+p em, p i {
+  font-family: var(--font-family);
+  font-variation-settings: 'wght' 400, 'wdth' 100, 'slnt' -12;
+}
+
+button, a.btn {
+    font-family: var(--font-family);
+    font-variation-settings: 'wght' 700, 'wdth' 115, 'slnt' 0;
+}
